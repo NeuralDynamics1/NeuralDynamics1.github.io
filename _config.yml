@@ -19,7 +19,7 @@ linkedin_username: "http://linkedin.com/in/mahan-naseri-076918299"
 #########################################################################################
 theme: "minima"
 
-rss: rss
+rss: 
 
 kramdown:
   syntax_highlighter_opts:

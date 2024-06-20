@@ -1,3 +1,10 @@
+$$
+\begin{equation}
+ \frac{d\mathbf{q}}{dt} - \frac{\partial \mathcal{H_{\theta}}}{\partial \mathbf{p}} = 0, \quad \frac{d\mathbf{p}}{dt} + \frac{\partial \mathcal{H_{\theta}}}{\partial \mathbf{q}}=0 \qquad (3)
+\end{equation}
+$$
+
+
 ## First lesson; PINN is kinda an ode solver!
 
 # What are Physics-Informed Neural Networks?

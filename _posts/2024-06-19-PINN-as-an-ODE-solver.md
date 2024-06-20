@@ -76,7 +76,7 @@ The derived ODE for the simple harmonic oscillator is:
 
 ![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/5004ef62-fb65-4dfc-8c82-3af30fd350d2)
 
-
+# Loss function
 
 
 

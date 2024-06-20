@@ -1,4 +1,4 @@
-## First lesson; PINN is kinda an ode solver!
+## First lesson; PINN as an ode solver!
 
 # What are Physics-Informed Neural Networks?
 Physics-Informed Neural Networks (PINNs) are a type of deep learning models that not only fit the data (as classical neural networks) but also incorporate physical laws into the training process (mostly through loss function). Unlike traditional neural networks (which only rely on data to learn patterns and make predictions), PINNs leverage the governing equations of the physical (dynamical) systems to improve accuracy and generalizability. Thus, PINNs not only fit the data but obey the physical constraints and symmetries.

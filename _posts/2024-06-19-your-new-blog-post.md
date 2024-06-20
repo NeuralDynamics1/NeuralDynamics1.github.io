@@ -12,8 +12,10 @@ A Multi-Layer Perceptron (MLP) is the most common type of deep learning alghorit
 f: \mathbb{R}^n \rightarrow \mathbb{R}^m \quad \text{and} \quad m, n \in \mathbb{R}
 ```
 $$
-f: \mathbb{R}^n \rightarrow \mathbb{R}^m
+f: \mathbb{R}^n \rightarrow \mathbb{R}^m \quad \text{and} \quad m, n \in \mathbb{R}
 $$
+
+\[ F = m \frac{d^2 x}{dt^2} \]
 
 where n is the input dimention, and m is the output dimention.
 

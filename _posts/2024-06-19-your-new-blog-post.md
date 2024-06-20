@@ -11,10 +11,6 @@ A Multi-Layer Perceptron (MLP) is the most common type of deep learning alghorit
 ![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/d4663bf0-6f52-488f-b204-a98632499344)
 
 
-```math
-f: \mathbb{R}^n \rightarrow \mathbb{R}^m \quad \text{and} \quad m, n \in \mathbb{R}
-```
-
 
 where n is the input dimention, and m is the output dimention.
 
@@ -30,9 +26,10 @@ A simple harmonic oscillator describes a system where a mass 𝑚  is attached t
 
 The dynamics of the system are governed by Newton's second law of motion:
 
-```math
-F = m.a = m \frac{d^2 x}{dt^2}
-```
+![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/cdfa6474-dbf4-46dc-b557-3e47e2725501)
+
+
+
 
 where:
 
@@ -47,9 +44,9 @@ a is the acceleration of the mass which is the second derivatives of x.
 
 For a spring, Hooke's law states that the restoring force 𝐹_spring is proportional to the displacement 𝑥 and is given by:
 
-```math
-F_{\text{spring}} = -kx
-```
+![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/4b831916-e7a3-4c50-bdbc-f2b3391e7789)
+
+
 where:
 
 𝑘 is the spring constant.
@@ -62,27 +59,23 @@ The negative sign indicates that the force is directed opposite to the displacem
 
 Substitute the expression for the restoring force from Hooke's law into Newton's second law:
 
-```math
-m \frac{d^2 x}{dt^2} = -kx
-```
+![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/80517d82-086c-4b89-8929-fbcc6e154ee3)
+
 
 Rearrange the equation to obtain the standard form of the simple harmonic oscillator ODE:
 
-```math
-\frac{d^2 x}{dt^2} + \frac{k}{m} x = 0
-```
+![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/1b8ee423-caa3-4be5-806c-ce5b75ce12db)
+
 
 Introduce the angular frequency 𝜔, which is defined as:
 
-```math
-\omega = \sqrt{\frac{k}{m}}
-```
+![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/29cdc532-cb16-4445-aa6d-edd9dc102c7f)
+
 
 The derived ODE for the simple harmonic oscillator is:
 
-```math
-\frac{d^2 x}{dt^2} + \omega^2 x = 0
-```
+![image](https://github.com/NeuralDynamics1/NeuralDynamics1.github.io/assets/173298938/5004ef62-fb65-4dfc-8c82-3af30fd350d2)
+
 
 
 

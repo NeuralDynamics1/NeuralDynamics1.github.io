@@ -8,10 +8,12 @@ Physics-Informed Neural Networks (PINNs) are a type of deep learning models that
 
 A Multi-Layer Perceptron (MLP) is the most common type of deep learning alghorithim and essentially is a complex nonlinear function. The complexity and nonlinearity of an MLP increase with the number of neurons and layers it contains. The more layers and neurons an MLP has, the more complex it becomes, and consequently, it requires more data to train effectively. An MLP can be descibed as:
 
-
+```math
 f: \mathbb{R}^n \rightarrow \mathbb{R}^m \quad \text{and} \quad m, n \in \mathbb{R}
-
-\[ F = m \frac{d^2 x}{dt^2} \]
+```
+$$
+f: \mathbb{R}^n \rightarrow \mathbb{R}^m
+$$
 
 where n is the input dimention, and m is the output dimention.
 

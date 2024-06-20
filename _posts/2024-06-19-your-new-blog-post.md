@@ -15,7 +15,9 @@ $$
 f: \mathbb{R}^n \rightarrow \mathbb{R}^m \quad \text{and} \quad m, n \in \mathbb{R}
 $$
 
-\[ F = m \frac{d^2 x}{dt^2} \]
+<p align="center">
+  \( F = m \frac{d^2 x}{dt^2} \)
+</p>
 
 where n is the input dimention, and m is the output dimention.
 
